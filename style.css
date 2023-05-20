@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/fredoka-one');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/*.container{
+    max-width: 1210px;
+    margin: auto;
+    padding: 0 50px;
+}*/
+.container{
+    width: 1600px;
+    margin: auto;
+    padding: 0 249px 0 187px;
+}
+.header{
+    min-width: 1600px;
+    min-height: 862px;
+    background-color: rgb(242, 206, 218, 0.3);
+}
+nav{
+    padding-top: 10px;
+    width: 1125px;
+    height: 79px;
+}
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__wrapper > img{
+    width: 79px;
+    height: 79px;
+}
+.nav__menu{
+    display: flex;
+    gap: 0 40px;
+    list-style-type: none;
+}
+.list__item > a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #150101;
+    opacity: 0.6;
+}
+.list__item > a:hover{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D23166;
+}
+button.nav__btn{
+    width: 165px;
+    height: 49px;
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+}
+.nav__btn > a{
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    text-decoration: none;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner__content{
+    width: 665px;
+    height: 364px;
+}
+.banner__content > strong{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+}
+.banner__content > h1{
+    width: 665px;
+    height: 130px;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+.banner__content > h1 > span{
+    color: #D23166;
+    font-family: 'Fredoka One', sans-serif;
+}
+.banner__content > p{
+    width: 523px;
+    height: 78px;
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+.banner__img{
+   background-image: url("./images/hero.png");
+   width: 895px;
+   height: 742px;
+   background-repeat: no-repeat;
+   background-size: 894.68px 742.36px;
+   background-position: center;
+}
+.delivery{
+    margin: 100px 0;
+}
+.card__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 40px;
+}
+.card{
+    width: 250px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    text-align: center;
+}
+.card > img{
+    width: 50px;
+    height: 50px;
+    margin-top: 33px;
+}
+.card > h4{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+.card > p{
+    width: 198px;
+    height: 35px;
+    font-family: 'Hind Madurai';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+    margin: 9px 26px 27px 26px;
+}
+.second-header{
+    min-width: 1600px;
+    min-height: 544.5px;
+    background: #F8EDF0;
+    margin-bottom: 137px;
+}
+.second__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second__content{
+    width: 442px;
+    height: 256.71px;
+}
+.second__content > h2{
+    width: 349px;
+    height: 98.27px;
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+    margin-bottom: 16px;
+}
+.second__content > p{
+    width: 442px;
+    height: 58.16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    margin-bottom: 35px;
+}
+.second__btn{
+    width: 165px;
+    height: 49.13px;
+    background: #D64374;
+    border-radius: 5px;
+    border: none;
+}
+.second__btn > a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFA;
+}
+.second__img{
+   background-image: url("./images/cilekli\ dondurma.png");
+   width: 655px;
+   height: 656.8px;
+   background-repeat: no-repeat;
+   background-size: 655px 656.8px;
+   background-position: center;
+}
+.product__content{
+    min-width: 1160px;
+    margin: auto;
+}
+.product__content > h2{
+    text-align: center;
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    margin-bottom: 64px;
+}
+.product__menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 40px;
+    margin-bottom: 50px;
+}
+.product__item > a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgb(0, 0, 0, 0.6);
+}
+.product__item > a:hover{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    border-bottom: 3px solid #D64374;
+}
+
+.productcard__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1119px;
+    height: 415px;
+    margin-bottom: 120px;
+}
+.left > img{
+    width: 580px;
+    height: 415px;
+}
+.right{
+    margin-left: 85px;
+}
+.right > h3{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+.right > .right__text{
+    width: 454px;
+    height: 67px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 28px;
+}
+.price{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: black;
+    margin-bottom: 16px;
+}
+del{
+    font-family: 'Hind Madurai';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+}
+.right__btn{
+    width: 165px;
+    height: 49px;
+    background: #D64374;
+    border-radius: 5px;
+    border: none;
+}
+.right__btn > a{   
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FAFAFA;
+    text-decoration: none;
+}
+.feedback{
+    margin-top: 112px;
+}
+.feedback__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.feedback__right > img{
+    width: 564px;
+    height: 442px;
+}
+.feedback__title{
+    display: flex;
+    margin-bottom: 45px;
+}
+.feedback__title > img{
+    width: 59px;
+    height: 59px;
+    margin-right: 21px;
+}
+.feedback__title> .name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.feedback__title > p > span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    opacity: 0.7;
+}
+.feedback__text{
+    position: relative;
+    width: 322px;
+    height: 70px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-left: 22px;
+}
+.left-q{
+    position: absolute;
+    top: 0;
+    left: -18px;
+}
+.right-q{
+    position: absolute;
+    bottom: 0;
+    left: 268px;
+}
+.feedback__scroll{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 0 25px;
+    margin-top: 39px;
+    margin-left: 20px;
+    position: relative;
+}
+.feedback__scroll > img:first-of-type{
+    position: absolute;
+    right: 0;
+    left:-30px;
+}
+.feedback__scroll > img:last-of-type{
+    position: absolute;
+    right: 0;
+    left: 175px;
+}
+.user > img{
+    width: 35px;
+    height: 35px;
+}
+.user > img:hover{
+    width: 58px;
+    height: 58px;
+    border: 3px solid #D23166;
+    border-radius: 50%;
+}
